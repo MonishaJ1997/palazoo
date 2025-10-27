@@ -19,6 +19,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 import os
 
 STATIC_URL = '/static/'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 STATICFILES_DIRS = [
     BASE_DIR / 'static',
